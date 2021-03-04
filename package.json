@@ -1,22 +1,22 @@
 {
-  "name": "hyperdomains",
-  "version": "0.0.0",
-  "description": "WIP - nothing to see here",
+  "name": "dwebdomains",
+  "version": "1.0.0",
+  "description": "Experimental library for saving DNS records to a dWebTrie",
   "main": "index.js",
   "dependencies": {
-    "blake2b-universal": "^1.0.0",
+    "@ddatabase/crypto": "^1.0.0",
     "hypercore-crypto": "^2.1.0",
-    "hypertrie": "^5.0.1"
+    "dwebtrie": "^3.0.0"
   },
   "devDependencies": {},
   "repository": {
     "type": "git",
-    "url": "https://github.com/mafintosh/hyperdomains.git"
+    "url": "https://github.com/dwebprotocol/dwebdomains.git"
   },
-  "author": "Mathias Buus (@mafintosh)",
+  "author": "PeepsLabs <peepslabs@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mafintosh/hyperdomains/issues"
+    "url": "https://github.com/dwebprotocol/dwebdomains/issues"
   },
-  "homepage": "https://github.com/mafintosh/hyperdomains"
+  "homepage": "https://dwebx.org"
 }
